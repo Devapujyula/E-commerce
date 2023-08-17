@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ecommerce</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    <link rel="shortcut icon" href="#" />
+
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -23,12 +24,15 @@
           <li><a href="blog.html">Blog</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
-          <li>
-            <a href="cart.html"
-              ><i class="fa fa-shopping-cart" aria-hidden="true"></i
-            ></a>
+          <li id="lg-bag">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
           </li>
+          <a href="" id="close"><i class="far fa-times"></i></a>
         </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
       </div>
     </section>
 
@@ -467,5 +471,7 @@
         <p>0 2023, Web Development - HTML CSS Ecommerce Mini Application</p>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
